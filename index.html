@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azamat</title>
+    <link rel="stylesheet" href="./styles/common.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <div class="wrapp">
+        <header class="header gsap__anim">
+            <div class="parallax__wrapp">
+                <div class="header__content content">
+                    <h1 class="header__title">Salom, <br/>
+                        <span id="element" class="header__title-txt"></span>
+                    </h1>
+                    <p class="header__subtitle">Men yuqori sifatli loyihalarni tuzishda ko'proq foydalanuvchiga qulayligiga, funksionallikka, dizaynga va foydalanuvchini o'ziga tortadigan animatsiyalarga e'tibor beraman.</p>
+                    <a href="#!" class="header__btn btn">Ulanish</a>
+                </div>
+                <div class="header__image">
+                    <svg id="svg" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 502.664 502.664" >
+                        <path d="M153.821 358.226 0 274.337v-46.463l153.821-83.414v54.574L46.636 250.523l107.185 53.431v54.272zM180.094 387.584 282.103 115.08h32.227L212.084 387.584h-31.99zM348.843 358.226v-54.272l107.164-52.999-107.164-52.59v-53.927l153.821 83.522v46.183l-153.821 84.083z"></path>
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="about-me gsap__anim section">
+                <div class="parallax__wrapp">
+                    <div class="content about-me__content">
+                        <h2 class="title about-me__title">Men haqimda</h2>
+                        <p id="element3" class="about-me__content-txt">
+                            Men frontend dasturchiman. Ajoyib interaktiv dizaynlarni yaratishga va sodda, foydali interfeyslar yaratishga qiziqaman.
+                            <br>
+                            <b class="about-me__content-txt-title">&MediumSpace; Tajribalar:</b>
+                            <ul class="about-me__content-list">
+                                <li class="about-me__content-item">Veb sahifalarni sodda, qulay va keng qamrovli qilish</li>
+                                <li class="about-me__content-item">Foydali va intuitiv interfeyslar yaratish</li>
+                                <li class="about-me__content-item">Har qanday qurilmada va ekran o'lchamida to'g'ri ko'rinadigan veb sayt yaratish</li>
+                                <li class="about-me__content-item">Elementlarni sinflashda BEM metodologiyasidan foydalanish</li>
+                                <li class="about-me__content-item">Layout yaratishda Flexbox va Grid dan foydalanish</li>
+                                <li class="about-me__content-item">Javascriptda o'zgaruvchilarni nomlashda camelCase usulidan foydalanish</li>
+                                <li class="about-me__content-item">Vue js frameworkidan foydalanib, sodda komponentlar yaratish va veb ilovani boshqarish uchun modellash</li>
+                                <!-- <li class="about-me__content-item"></li> -->
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="skills gsap__anim section">
+                <div class="parallax__wrapp">
+                    <div class="skills__content content">
+                        <h2 class="skills__content-title title">Skills</h2>
+                        <div class="skills__content-cards">
+                            <div class="skills__content-card">
+                                <img src="img/rounded/html5.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">HTML5</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/css.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">CSS3</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/javascript.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">Javascript</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/vuejs.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">Vue</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/pinia.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">Pinia</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/element-ui.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">Element UI</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/sass.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">SASS</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/git.png" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">git</span>
+                            </div>
+                            <div class="skills__content-card">
+                                <img src="img/rounded/axios.webp" alt="html" class="skills__content-card-img">
+                                <span class="skills__content-card-txt">Axios</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio section gsap__anim">
+                <div class="parallax__wrapp">
+                    <div class="portfolio__content content">
+                        <h2 class="title portfolio__content-title">Portfolio</h2>
+                        <p class="portfolio__content-txt">Mening Github <a href="https://github.com/azamat532">linkim</a></p>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <a href="https://azamat532.github.io/All-Marketing/" class="portfolio__content-link">
+                                    <img src="img/projects/allMarketing.jpg" alt="" class="portfolio__content-img">
+                                </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="https://azamat532.github.io/Cloudbudget/" class="portfolio__content-link">
+                                    <img src="img/projects/cloudBudget.jpg" alt="" class="portfolio__content-img">
+                                </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="https://azamat532.github.io/Financiary/" class="portfolio__content-link">
+                                    <img src="img/projects/financiary.jpg" alt="" class="portfolio__content-img">
+                                </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="https://azamat532.github.io/Konstruct-inc/" class="portfolio__content-link">
+                                    <img src="img/projects/konstruct.jpg" alt="" class="portfolio__content-img">
+                                </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="https://azamat532.github.io/Silver-House/" class="portfolio__content-link">
+                                    <img src="img/projects/silverHouse.jpg" alt="" class="portfolio__content-img">
+                                </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="https://vue3-shop.netlify.app" class="portfolio__content-link">
+                                    <img src="img/projects/vue3Shop.jpg" alt="" class="portfolio__content-img">
+                                </a>
+                              </div>
+                              <div class="swiper-slide">
+                                <a href="https://vue-app-to-doo.netlify.app" class="portfolio__content-link">
+                                    <img src="img/projects/toDo.jpg" alt="" class="portfolio__content-img">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact section gsap__anim">
+                <div class="parallax__wrapp">
+                    <div class="content">
+                        <h2 class="contact__title title">Ulanish</h2>
+                        <form action="" class="contact__form">
+                            <div class="contact__form-item">
+                                <input type="text" name="name" class="contact__form-input" autocomplete="off" required>
+                                <label for="name" class="contact__form-label">
+                                    <span class="contact__form-label-name">Name</span>
+                                    <div class="contact__form-label-line">
+                                        <div class="contact__form-label-bg"></div>
+                                    </div>
+                                    <div class="contact__form-label-sq"></div>
+                                </label>
+                            </div>
+                            <div class="contact__form-item">
+                                <input type="text" name="tel" class="contact__form-input" autocomplete="off" required>
+                                <label for="tel" class="contact__form-label">
+                                    <span class="contact__form-label-name">Telefon</span>
+                                    <div class="contact__form-label-line">
+                                        <div class="contact__form-label-bg"></div>
+                                    </div>
+                                    <div class="contact__form-label-sq"></div>
+                                </label>
+                            </div>
+                            <div class="contact__form-item">
+                                <input type="text" name="email" class="contact__form-input" autocomplete="off" required>
+                                <label for="email" class="contact__form-label">
+                                    <span class="contact__form-label-name">Email</span>
+                                    <div class="contact__form-label-line">
+                                        <div class="contact__form-label-bg"></div>
+                                    </div>
+                                    <div class="contact__form-label-sq"></div>
+                                </label>
+                            </div>
+    
+                            <button class="contact__form-btn">
+                                <span class="contact__form-btn-txt">Submit</span>
+                                <span class="contact__form-btn-bg"></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="header gsap__anim">
+                <div class="parallax__wrapp">
+                    <div class="header__content content">
+                        <h1 class="header__title">Salom, <br/>
+                            <span id="element2" class="header__title-txt"></span>
+                        </h1>
+                        <p class="header__subtitle">Men yuqori sifatli loyihalarni tuzishda ko'proq foydalanuvchiga qulayligiga, funksionallikka, dizaynga va foydalanuvchini o'ziga tortadigan animatsiyalarga e'tibor beraman.</p>
+                        <a href="#!" class="header__btn btn">Ulanish</a>
+                    </div>
+                    <div class="header__image">
+                        <svg id="svg" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 502.664 502.664" >
+                            <path d="M153.821 358.226 0 274.337v-46.463l153.821-83.414v54.574L46.636 250.523l107.185 53.431v54.272zM180.094 387.584 282.103 115.08h32.227L212.084 387.584h-31.99zM348.843 358.226v-54.272l107.164-52.999-107.164-52.59v-53.927l153.821 83.522v46.183l-153.821 84.083z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </section> -->
+        </main>
+    </div>
+
+
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.37/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="./js/main.js"></script>
+    <!-- <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement({
+                    pageLanguage: 'uz',
+                    includedLanguages: 'en,ru,uz',
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                },
+                'google_translate_element'
+            )
+        }
+    </script> -->
+   
+</body>
+</html>
