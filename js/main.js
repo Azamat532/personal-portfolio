@@ -183,14 +183,14 @@ $(function () {
 
     
 
-    const debouncedResize = _.debounce(onWindowResize, 500)
+    // const debouncedResize = _.debounce(onWindowResize, 500)
 
-    function onWindowResize(){
-        console.log('Window resized');
-        location.replace()
-    }
-    $(window).on('resize', debouncedResize)
-    console.log(window.innerWidth);
+    // function onWindowResize(){
+    //     console.log('Window resized');
+    //     location.replace()
+    // }
+    // $(window).on('resize', debouncedResize)
+    // console.log(window.innerWidth);
 
     let typed = new Typed('#element', {
         strings: ['ismim Azamat,\n Frontend dasturchiman.'],
@@ -218,4 +218,23 @@ $(function () {
           prevEl: ".swiper-button-prev",
         },
       });
+
+      const activePage = window.location.hash
+      console.log(activePage);
+      
+      
+
+      $(window).on('beforeunload', () => {
+        window.location.hash = '#home'
+        console.log(window.location.hash);
+      })
+
+      $('.contact__form').on('submit', (event) => {
+        event.preventDefault();
+        const inputs = document.querySelectorAll('.contact__form-input')
+        inputs.forEach(input => {
+            input.value = ""
+        })
+      })
+      
 })
